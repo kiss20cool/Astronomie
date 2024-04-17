@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus - Simple HTML Page</title>
+
+    <link href="Venus.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- Menu déroulant -->
+    <nav>
+        <ul class="cf">
+            <li><a href="index.html">Index</a></li>
+            <li><a class="dropdown" href="#">Planètes</a>
+                <ul>
+                    <li><a href="Mars.html">Mars</a></li>
+                    <li><a href="Uranus.html">Uranus</a></li>
+                    <li><a href="neptune.html">Neptune</a></li>
+                    <li><a href="Saturne.html">Saturne</a></li>
+                    <li><a href="Jupiter.html">Jupiter</a></li>
+                    <li><a href="Venus.html">Venus</a></li>
+                </ul>
+            </li>
+            <li><a href="Galaxies.html">Galaxies</a></li>
+        </ul>
+    </nav>
+    <!-- fin Menu déroulant --> 
+
+    <h1 style="color: black;"> Les Mystères de Venus</h1>
+    <p>Ici, tu trouveras des informations fascinantes sur Venus, la deuxième planète du système solaire.</p>
+    <h2>Caractéristiques de Venus</h2>
+    <p>Venus est connue pour sa brillance et est souvent appelée l'étoile du berger. C'est la planète la plus chaude du système solaire.</p>
+    <h2>Exploration de Venus</h2>
+    <p>Apprends-en plus sur les missions spatiales qui ont visité Venus et ont révolutionné notre compréhension de cette planète mystérieuse.</p>
+    <h2>Découvertes Récentes</h2>
+    <p>Découvre les dernières avancées scientifiques et les découvertes passionnantes qui élargissent nos connaissances sur Venus.</p>
+    <a href="index.html">Retour à l'Index</a>
+
+    <img class="venus" src="slider/venus1.jpg" width="100%">
+    <img class="venus" src="slider/venus2.jpg" width="100%">
+    <img class="venus" src="slider/venus3.jpg" width="100%">
+    
+    <script>
+        w3.slideshow(".venus", 3500);
+    </script>
+</body>
+</html>

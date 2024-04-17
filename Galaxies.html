@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxies - Simple HTML Page</title>
+
+    <link href="style.css" rel="stylesheet">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <!-- Menu déroulant -->
+    <nav>
+        <ul class="cf">
+            <li><a href="index.html">Index</a></li>
+            <li><a class="dropdown" href="#">Planètes</a>
+                <ul>
+                    <li><a href="Mars.html">Mars</a></li>
+                    <li><a href="Uranus.html">Uranus</a></li>
+                    <li><a href="neptune.html">Neptune</a></li>
+                    <li><a href="Saturne.html">Saturne</a></li>
+                    <li><a href="Jupiter.html">Jupiter</a></li>
+                    <li><a href="Venus.html">Venus</a></li>
+                </ul>
+            </li>
+            <li><a href="Galaxies.html">Galaxies</a></li>
+        </ul>
+    </nav>
+    <!-- fin Menu déroulant --> 
+
+    <h1 style="color: black;"> Les Mystères des Galaxies</h1>
+    <p>Ici, tu trouveras des informations fascinantes sur les galaxies, ces vastes systèmes d'étoiles, de gaz et de poussières cosmiques.</p>
+    <h2>Types de Galaxies</h2>
+    <p>Il existe plusieurs types de galaxies, notamment les galaxies spirales, elliptiques et irrégulières. Découvre leurs caractéristiques uniques et leur beauté étonnante.</p>
+    <h2>Exploration Galactique</h2>
+    <p>Apprends-en plus sur les missions spatiales et les télescopes qui ont révolutionné notre compréhension de l'univers en explorant les galaxies lointaines.</p>
+    <h2>Découvertes Récentes</h2>
+    <p>Découvre les dernières avancées scientifiques et les découvertes passionnantes qui élargissent nos connaissances sur les galaxies et leur évolution.</p>
+    <a href="index.html">Retour à l'Index</a>
+
+    <img class="galaxies" src="slider/1.jpg" width="100%">
+    <img class="galaxies" src="slider/2.jpg" width="100%">
+    <img class="galaxies" src="slider/3.jpg" width="100%">
+    
+    <script>
+        w3.slideshow(".galaxies", 3500);
+        </script>
+</body>
+</html>

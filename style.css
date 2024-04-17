@@ -1,0 +1,47 @@
+/* Style pour le menu de navigation */
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333; /* Couleur de fond lors du survol */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+nav ul li.active a {
+    background-color: #555; /* Couleur de fond pour le lien actif */
+}
+
+/* Style pour le reste de la page */
+body {
+    background-image: url('imagebackgroud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Garantit que l'image de fond couvre toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime les rembourrages par défaut du corps */
+    color: white;
+    text-align: center;
+}
